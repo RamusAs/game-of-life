@@ -98,3 +98,28 @@ button.help {
   height: 20px;
   width: 20px;
 }
+
+
+/*Message*/
+.message {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display:  flex;
+  gap: 20px;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid rgb(253, 129, 129);
+  border-radius: 12px;
+  background-color: rgba(253, 129, 129, .8);
+  color: white ;
+}
+
+.message button{
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: currentColor;
+  cursor: pointer;
+}
