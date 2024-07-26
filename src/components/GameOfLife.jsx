@@ -5,10 +5,8 @@ import useWindowSize from '../hooks/useWindowSize';
 const getGridSize = (width) => {
   if (width < 600) {
     return 10;
-  } else if (width < 900) {
-    return 20;
   } else {
-    return 30;
+    return 20;
   }
 };
 
